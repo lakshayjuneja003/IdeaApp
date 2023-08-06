@@ -1,11 +1,11 @@
-import express from "express"
+const express =require("express")
 const app = express();
 
 
 app.get("/",(req,res)=>{
     res.send("hello world")
 })
-app.get("/instagram",(req,res)=>{
-res.send("you have visirted instagram")
+app.get("/idea_app_demo",(req,res)=>{
+res.send("you have visirted idea_app_demo")
 })
- export default app;
+module.exports = app
